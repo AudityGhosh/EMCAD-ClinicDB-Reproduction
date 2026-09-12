@@ -1,0 +1,35 @@
+# EMCAD ClinicDB Reproduction
+# Tested environment from the notebook:
+# Python 3.12.13
+# PyTorch 2.10.0+cu128 (Kaggle Tesla T4)
+#
+# PyTorch is intentionally not pinned here because the CUDA build is
+# platform-specific. Install a CUDA-compatible PyTorch build separately.
+
+numpy==1.26.4
+
+# Core EMCAD / segmentation dependencies
+albumentations==1.1.0
+timm==1.0.26
+segmentation-mask-overlay==0.3.4
+medpy
+thop
+ptflops
+torchprofile
+torchmetrics
+torchsummary
+torchsummaryx
+warmup-scheduler
+einops
+ml-collections
+tensorboardx
+simpleitk
+nibabel
+loguru
+tabulate
+
+# Evaluation / visualization used by the reproduction notebook
+pandas
+tqdm
+matplotlib
+opencv-python==4.10.0.84
