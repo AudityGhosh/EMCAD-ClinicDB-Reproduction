@@ -2,12 +2,6 @@
 
 Independent experimental reproduction of **PVT-EMCAD-B2** from the CVPR 2024 EMCAD paper on **ClinicDB** — **95.02% Dice** vs. **95.21% reported**.
 
-[![Paper](https://img.shields.io/badge/CVPR-2024-blue)](https://openaccess.thecvf.com/content/CVPR2024/html/Rahman_EMCAD_Efficient_Multi-scale_Convolutional_Attention_Decoding_for_Medical_Image_Segmentation_CVPR_2024_paper.html)
-[![Official Code](https://img.shields.io/badge/Official%20Code-GitHub-black)](https://github.com/SLDGroup/EMCAD)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.10-orange)
-![Task](https://img.shields.io/badge/Task-Medical%20Image%20Segmentation-green)
-![Dataset](https://img.shields.io/badge/Dataset-ClinicDB-purple)
-
 Independent experimental reproduction and analysis of:
 
 > **EMCAD: Efficient Multi-scale Convolutional Attention Decoding for Medical Image Segmentation**  
